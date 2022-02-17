@@ -6,46 +6,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
   <div class="container">
 
   <div class="header">
-    <div class="search"><input type="text" class="search"></div>
-    <div class="notification"><img src="" alt="" class="notification-icon"><img src="" alt="" class="user-profile"><p>User Profile</p></div>
-    <div class="greeting"><img src="" alt="" class="user-profile"><p>Greetings, User!</p></div>
+    <div class="top">
+    <div class="search">
+      <label for="search"><img src="images/magnify.png" alt=""></label>
+      <input type="search" class="search" id="search" name="search">
+    </div>
+    <div class="notification">
+      <img src="images/bell-ring-outline.png" alt="" class="notification-icon">
+      <img src="images/user.png" alt="" class="user-profile">
+      <p>Morgan Oakley</p>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="greeting">
+      <img src="images/user.png" alt="" class="main-user-profile">
+      <div class="greeting-inner">
+        <p>Greetings,</p>
+        <p class="user-name">Morgan Oakley!</p>
+      </div>
+    </div>
     <div class="post">
       <button>New</button>
       <button>Upload</button>
       <button>Share</button></div>
   </div>
+  </div>
 
   <div class="sideboard">
-    <div class="logo">Logo</div>
+    <div class="logo"><img class="infinity" src="images/vector-square.png"><h1>Dashboard</h1></div>
     <ul>
-      <li>Home</li>
-      <li>Profile</li>
-      <li>Messages</li>
-      <li>History</li>
-      <li>Tasks</li>
-      <li>Communities</li>
+      <li><a href=""><img class="menu" src="images/home-variant.png" alt="">Home</a></li>
+      <li><a href=""><img class="menu" src="images/account-circle.png" alt="">Profile</a></li>
+      <li><a href=""><img class="menu" src="images/android-messages.png" alt="">Messages</a></li>
+      <li><a href=""><img class="menu" src="images/history.png" alt="">History</a></li>
+      <li><a href=""><img class="menu" src="images/clipboard-text.png" alt="">Tasks</a></li>
+      <li><a href=""><img class="menu" src="images/account-group.png" alt="">Communities</a></li>
       <li><br></li>
-      <li>Settings</li>
-      <li>Support</li>
-      <li>Privacy</li>
+      <li><a href=""><img class="menu" src="images/cog.png" alt="">Settings</a></li>
+      <li><a href=""><img class="menu" src="images/chat-question.png" alt="">Support</a></li>
+      <li><a href=""><img class="menu" src="images/shield-check.png" alt="">Privacy</a></li>
     </ul>
   </div>
 
   <div class="workspace">
-
   <div class="projectboard">
-    <h1>Your Projects</h1>
-    <div class="project"><h2>Super Cool Project</h2></div>
-    <div class="project"><h2>Less Cool Project</h2></div>
-    <div class="project"><h2>Impossible App</h2></div>
-    <div class="project"><h2>Easy Peasy App</h2></div>
-    <div class="project"><h2>Ad Blocker</h2></div>
-    <div class="project"><h2>Money Maker</h2></div>
+    <h2>Your Projects</h2>
+    <div class="project">
+      <h2>Super Cool Project</h2>
+      <p class="description">Aliquam sed libero tincidunt, tristique erat commodo, pretium risus. Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+      <div class="sharing-options">
+        <img src="images/eye-plus-outline.png" alt="">
+        <img src="images/star-plus-outline.png" alt="">
+        <img src="images/share-variant-outline.png" alt=""></div>
+    </div>
+    <div class="project">
+      <h2>Less Cool Project</h2>
+      <p class="description">Aliquam sed libero tincidunt, tristique erat commodo, pretium risus. Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+      <div class="sharing-options">
+        <img src="images/eye-plus-outline.png" alt="">
+        <img src="images/star-plus-outline.png" alt="">
+        <img src="images/share-variant-outline.png" alt=""></div>
+    </div>
+    <div class="project">
+      <h2>Impossible App</h2>
+      <p class="description">Aliquam sed libero tincidunt, tristique erat commodo, pretium risus. Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+      <div class="sharing-options">
+        <img src="images/eye-plus-outline.png" alt="">
+        <img src="images/star-plus-outline.png" alt="">
+        <img src="images/share-variant-outline.png" alt=""></div>
+    </div>
+    <div class="project">
+      <h2>Easy Peasy App</h2>
+      <p class="description">Aliquam sed libero tincidunt, tristique erat commodo, pretium risus. Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+      <div class="sharing-options">
+        <img src="images/eye-plus-outline.png" alt="">
+        <img src="images/star-plus-outline.png" alt="">
+        <img src="images/share-variant-outline.png" alt=""></div>
+    </div>
+    <div class="project">
+      <h2>Ad Blocker</h2>
+      <p class="description">Aliquam sed libero tincidunt, tristique erat commodo, pretium risus. Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+      <div class="sharing-options">
+        <img src="images/eye-plus-outline.png" alt="">
+        <img src="images/star-plus-outline.png" alt="">
+        <img src="images/share-variant-outline.png" alt=""></div>
+    </div>
+    <div class="project">
+      <h2>Money Maker</h2>
+      <p class="description">Aliquam sed libero tincidunt, tristique erat commodo, pretium risus. Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+      <div class="sharing-options">
+        <img src="images/eye-plus-outline.png" alt="">
+        <img src="images/star-plus-outline.png" alt="">
+        <img src="images/share-variant-outline.png" alt=""></div>
+    </div>
   </div>
 
   <div class="aside">
@@ -53,24 +115,37 @@
     <h2>Announcements</h2>
     <div class="annoucement">
     <h3>Site Maitenence</h3>
-    <p>Description</p>
-  </div>
-  <div class="annoucement">
+    <p>Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+    <hr>
     <h3>Community Share Day</h3>
-    <p>Description</p>
-  </div>
-  <div class="annoucement">
+    <p>Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
+    <hr>
     <h3>Updated Privacy Policy</h3>
-    <p>Description</p>
+    <p>Quisque mattis ante at tempor sollicitudin. Aenean risus eros, venenatis et eros malesuada, convallis vehicula est.</p>
   </div>
   </div>
 
   <div class="trending">
     <h2>Trending</h2>
-    <div class="trending-profile"><img src="" alt="" class="profile-image"><p>User 2</p></div>
-    <div class="trending-profile"><img src="" alt="" class="profile-image"><p>User 3</p></div>
-    <div class="trending-profile"><img src="" alt="" class="profile-image"><p>User 4</p></div>
-    <div class="trending-profile"><img src="" alt="" class="profile-image"><p>User 5</p></div>
+    <div class="trending-profiles">
+    <div class="trending-profile">
+      <img src="images/user.png" alt="" class="profile-image">
+      <div class="name"><p>@User2</p><p>username</p></div>
+    </div>
+    <div class="trending-profile">
+      <img src="images/user.png" alt="" class="profile-image">
+      <div class="name"><p>@User3</p><p>username</p></div>
+    </div>
+    <div class="trending-profile">
+      <img src="images/user.png" alt="" class="profile-image">
+      <div class="name"><p>@User4</p><p>username</p></div>
+    </div>
+    <div class="trending-profile">
+      <img src="images/user.png" alt="" class="profile-image">
+      <div class="name"><p>@User5</p><p>username</p></div>
+    </div>
+  </div>
+  </div>
   </div>
   </div>
   </div>
